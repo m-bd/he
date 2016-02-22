@@ -1,0 +1,23 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+NxN_to_N	spatial_track.cc	/^inline int NxN_to_N(unsigned int x, unsigned int y)$/;"	f
+Z_to_N	spatial_track.cc	/^inline unsigned int Z_to_N(int z)$/;"	f
+ZxZ_to_N	spatial_track.cc	/^inline int ZxZ_to_N(int x, int y)$/;"	f
+hash	spatial_track.cc	/^    struct hash<he::plane_position<int> >$/;"	s	namespace:std	file:
+he	spatial_track.cc	/^namespace he$/;"	n	file:
+lattice_spacing	spatial_track.cc	/^            unsigned int lattice_spacing;$/;"	m	class:he::spatial_tracking	file:
+operator ()	spatial_track.cc	/^            size_t operator() (const he::plane_position<int>& pos) const$/;"	f	struct:std::hash
+plane_position	spatial_track.cc	/^    struct plane_position$/;"	s	namespace:he	file:
+sign	spatial_track.cc	/^inline T sign(T number)$/;"	f
+space_position	spatial_track.cc	/^    struct space_position$/;"	s	namespace:he	file:
+spatial_tracking	spatial_track.cc	/^    class spatial_tracking$/;"	c	namespace:he	file:
+std	spatial_track.cc	/^namespace std$/;"	n	file:
+x	spatial_track.cc	/^        T x, y, z;$/;"	m	struct:he::space_position	file:
+x	spatial_track.cc	/^        T x, y;$/;"	m	struct:he::plane_position	file:
+y	spatial_track.cc	/^        T x, y, z;$/;"	m	struct:he::space_position	file:
+y	spatial_track.cc	/^        T x, y;$/;"	m	struct:he::plane_position	file:
+z	spatial_track.cc	/^        T x, y, z;$/;"	m	struct:he::space_position	file:
